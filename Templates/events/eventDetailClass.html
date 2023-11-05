@@ -1,0 +1,5 @@
+{% extends 'base.html'  %}
+{%block content%}
+<h1>liste des details d'events {{e.id}}</h1>
+<a href="{% url 'Event details Class' e.id %}">  {{e.title}} </a>
+{%endblock content%}
